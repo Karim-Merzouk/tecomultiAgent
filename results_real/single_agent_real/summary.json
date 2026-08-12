@@ -1,0 +1,56 @@
+{
+  "config": "single_agent_real",
+  "embedder": "hashed-ngram-fallback",
+  "n_cases": 28,
+  "n_escalated": 0,
+  "summary": {
+    "en": {
+      "msc": 0.3095,
+      "eap": 1.0,
+      "sas": 0.3095,
+      "msc_diag": 0.6429,
+      "msc_corr": 0.0,
+      "gpc0": 0.0,
+      "gpc1": 0.0714,
+      "sd": 0.0,
+      "brs": 0.2214,
+      "ira": 0.3143,
+      "ra": 0.6043
+    },
+    "ar": {
+      "msc": 0.3095,
+      "eap": 1.0,
+      "sas": 0.3095,
+      "msc_diag": 0.6429,
+      "msc_corr": 0.0,
+      "gpc0": 0.0,
+      "gpc1": 0.0714,
+      "sd": 0.0,
+      "brs": 0.2214,
+      "ira": 0.2744,
+      "ra": 0.4934
+    },
+    "all": {
+      "msc": 0.3095,
+      "eap": 1.0,
+      "sas": 0.3095,
+      "msc_diag": 0.6429,
+      "msc_corr": 0.0,
+      "gpc0": 0.0,
+      "gpc1": 0.0714,
+      "sd": 0.0,
+      "brs": 0.2214,
+      "ira": 0.2943,
+      "ra": 0.5488
+    }
+  },
+  "comm_overhead": {
+    "n_cases": 28,
+    "msgs_per_case": 3.0,
+    "tool_calls_per_case": 1.6071428571428572,
+    "tokens_per_case": 1951.5714285714287,
+    "repair_rounds_per_case": 0.0
+  },
+  "cross_language_consistency": 0.2992,
+  "escalation_reasons": {}
+}

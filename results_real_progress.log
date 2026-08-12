@@ -1,0 +1,11 @@
+START Tue Jul  7 01:54:26 PM CET 2026
+=== single_agent_real 13:54:26 ===
+single_agent_real cases=28 escalated=0 embedder=hashed-ngram-fallback
+cross-language consistency: 0.2992
+=== no_checker_real 14:03:59 ===
+no_checker_real cases=28 escalated=0 embedder=hashed-ngram-fallback
+cross-language consistency: 0.3241
+=== full_system_real 14:22:21 ===
+full_system_real cases=28 escalated=18 embedder=hashed-ngram-fallback
+cross-language consistency: 0.6634
+DONE Tue Jul  7 02:55:40 PM CET 2026

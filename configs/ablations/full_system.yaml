@@ -1,0 +1,18 @@
+name: full_system
+seed: 42
+tau_intent: 0.5
+with_list: true
+single_agent: false
+enable_diagnosis: true
+enable_checker: true
+max_evidence_loops: 2
+max_repair_rounds: 2
+max_report_rounds: 1
+max_tool_calls: 15
+backend:
+  kind: heuristic
+  model: granite3.3:8b
+  intent_error_rate: 0.05
+  drop_rate: 0.08
+  swap_rate: 0.08
+  distractor_rate: 0.10

@@ -1,0 +1,7 @@
+QUEUED Sat Jul 11 11:44:40 AM CET 2026 — waiting for GPU (any in-flight python cli/smoke) to free
+FULLSTART Sat Jul 11 11:44:48 AM CET 2026
+QUEUED Sun Jul 12 06:26:39 PM CET 2026 — waiting for GPU (any in-flight python cli/smoke) to free
+FULLSTART Sun Jul 12 06:26:47 PM CET 2026
+full_system_forced_real cases=2940 escalated=0 embedder=hashed-ngram-fallback
+cross-language consistency: 0.3393
+FULLDONE Tue Jul 14 06:52:50 PM CET 2026

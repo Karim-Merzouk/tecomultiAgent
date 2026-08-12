@@ -1,0 +1,56 @@
+{
+  "config": "no_checker_real",
+  "embedder": "hashed-ngram-fallback",
+  "n_cases": 28,
+  "n_escalated": 0,
+  "summary": {
+    "en": {
+      "msc": 0.5119,
+      "eap": 0.8452,
+      "sas": 0.4524,
+      "msc_diag": 0.6429,
+      "msc_corr": 0.4643,
+      "gpc0": 0.0,
+      "gpc1": 0.2857,
+      "sd": 0.0,
+      "brs": 0.2857,
+      "ira": 0.295,
+      "ra": 0.5952
+    },
+    "ar": {
+      "msc": 0.5238,
+      "eap": 0.881,
+      "sas": 0.4643,
+      "msc_diag": 0.6429,
+      "msc_corr": 0.5,
+      "gpc0": 0.0,
+      "gpc1": 0.3571,
+      "sd": 0.0,
+      "brs": 0.3071,
+      "ira": 0.2665,
+      "ra": 0.5324
+    },
+    "all": {
+      "msc": 0.5179,
+      "eap": 0.8631,
+      "sas": 0.4583,
+      "msc_diag": 0.6429,
+      "msc_corr": 0.4821,
+      "gpc0": 0.0,
+      "gpc1": 0.3214,
+      "sd": 0.0,
+      "brs": 0.2964,
+      "ira": 0.2807,
+      "ra": 0.5638
+    }
+  },
+  "comm_overhead": {
+    "n_cases": 28,
+    "msgs_per_case": 5.0,
+    "tool_calls_per_case": 3.142857142857143,
+    "tokens_per_case": 3068.25,
+    "repair_rounds_per_case": 0.0
+  },
+  "cross_language_consistency": 0.3241,
+  "escalation_reasons": {}
+}

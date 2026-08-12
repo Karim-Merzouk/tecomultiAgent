@@ -1,0 +1,17 @@
+name: full_system_real
+seed: 42
+tau_intent: 0.5
+with_list: true
+single_agent: false
+enable_diagnosis: true
+enable_checker: true
+max_evidence_loops: 2
+max_repair_rounds: 2
+max_report_rounds: 1
+max_tool_calls: 15
+backend:
+  kind: openai
+  model: granite3.3:8b
+  base_url: http://localhost:11434/v1
+  api_key: ollama
+  temperature: 0.0

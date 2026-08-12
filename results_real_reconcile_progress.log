@@ -1,0 +1,5 @@
+START Thu Jul  9 01:42:14 PM CET 2026
+=== full_system_reconcile_real 13:42:14 ===
+full_system_reconcile_real cases=28 escalated=16 embedder=hashed-ngram-fallback
+cross-language consistency: 0.6169
+DONE Thu Jul  9 02:09:26 PM CET 2026

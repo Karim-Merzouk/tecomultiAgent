@@ -1,0 +1,28 @@
+name: full_system
+seed: 42
+tau_intent: 0.5
+with_list: true
+
+single_agent: false
+enable_diagnosis: true
+enable_checker: true
+
+max_evidence_loops: 2
+max_repair_rounds: 2
+max_report_rounds: 1
+max_tool_calls: 15
+
+backend:
+  # kind: heuristic | openai | anthropic
+  # 'heuristic' is the offline backend that makes the pipeline produce results
+  # without a served model. Switch to 'openai' to serve Granite/Qwen/Llama via
+  # vLLM/Ollama/LM Studio, or 'anthropic' for API debugging.
+  kind: heuristic
+  model: granite3.3:8b
+  base_url: http://localhost:11434/v1
+  api_key: not-needed
+  temperature: 0.0
+  intent_error_rate: 0.05
+  drop_rate: 0.08
+  swap_rate: 0.08
+  distractor_rate: 0.10
