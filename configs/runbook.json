@@ -1,0 +1,102 @@
+{
+  "provenance": "derived n=1470 unambiguous",
+  "chains": {
+    "BEAM_MISALIGNMENT": [
+      "coverage_map",
+      "optimize_cell",
+      "create_ticket"
+    ],
+    "BLER_ANOMALY": [
+      "oss_query",
+      "kpi_timeseries",
+      "optimize_cell"
+    ],
+    "CELL_OUTAGE_DETECTION": [
+      "oss_query",
+      "create_ticket"
+    ],
+    "CONFIG_MISMATCH": [
+      "oss_query",
+      "push_config",
+      "create_ticket"
+    ],
+    "COVERAGE_HOLE": [
+      "coverage_map",
+      "oss_query",
+      "create_ticket"
+    ],
+    "DEGRADED_BACKHAUL": [
+      "oss_query",
+      "optimize_cell",
+      "create_ticket"
+    ],
+    "HIGH_PRB_UTILIZATION": [
+      "oss_query",
+      "optimize_cell",
+      "create_ticket"
+    ],
+    "HO_FAILURE_HOTSPOT": [
+      "coverage_map",
+      "optimize_cell"
+    ],
+    "HQOS_LATENCY_VIOLATION": [
+      "oss_query",
+      "kpi_timeseries",
+      "optimize_cell"
+    ],
+    "LOAD_BALANCING_NEEDED": [
+      "neighbor_audit",
+      "optimize_cell"
+    ],
+    "OVERSHOOTING_CELL": [
+      "coverage_map",
+      "neighbor_audit",
+      "optimize_cell"
+    ],
+    "PCI_COLLISION": [
+      "neighbor_audit",
+      "optimize_cell",
+      "create_ticket"
+    ],
+    "PINGPONG_HANDOVERS": [
+      "oss_query",
+      "kpi_timeseries",
+      "optimize_cell"
+    ],
+    "RESOURCE_SCHED_ANOMALY": [
+      "oss_query",
+      "kpi_timeseries",
+      "optimize_cell"
+    ],
+    "RLF_SPIKE": [
+      "oss_query",
+      "kpi_timeseries",
+      "optimize_cell"
+    ],
+    "SLA_VIOLATION_REPORT": [
+      "oss_query",
+      "kpi_timeseries",
+      "create_ticket"
+    ],
+    "SLICE_ADMISSION_FAILURE": [
+      "oss_query",
+      "optimize_slice",
+      "create_ticket"
+    ],
+    "SLICE_QOS_DEGRADATION": [
+      "oss_query",
+      "kpi_timeseries",
+      "optimize_slice"
+    ],
+    "TA_DISTRIBUTION_DRIFT": [
+      "oss_query",
+      "kpi_timeseries",
+      "optimize_cell"
+    ],
+    "THROUGHPUT_DROP_DL": [
+      "oss_query",
+      "kpi_timeseries",
+      "optimize_cell"
+    ]
+  }
+}
